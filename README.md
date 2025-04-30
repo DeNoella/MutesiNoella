@@ -78,3 +78,7 @@ Java Scanner (for user input)
 Validation (input constraints and error handling)
 
 This README outlines the design principles and implementation details of the Site Construction Management System, Hotel Management System, and Traffic Fine Management System projects, showcasing the use of OOP principles to solve real-world problems in Java.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
