@@ -1,0 +1,71 @@
+package TrafficFineManagementSystem;
+
+public class Constructors {
+    private String driverId;
+    private String driverName;
+    private String vehiclePlate;
+    private String violationType;
+    private double fineAmount;
+    private String paymentStatus;
+
+    public Constructors(String driverId, String driverName, String vehiclePlate, String violationType, double fineAmount, String paymentStatus) {
+        this.driverId = driverId;
+        this.driverName = driverName;
+        this.vehiclePlate = vehiclePlate;
+        this.violationType = violationType;
+        this.fineAmount = fineAmount;
+        this.paymentStatus = paymentStatus;
+    }
+
+    public Constructors() {
+
+    }
+
+    public String getDriverId() {
+        return driverId;
+    }
+
+    public void setDriverId(String driverId) {
+        this.driverId = driverId;
+    }
+
+    public String getDriverName() {
+        return driverName;
+    }
+
+    public void setDriverName(String driverName) {
+        this.driverName = driverName;
+    }
+
+    public String getVehiclePlate() {
+        return vehiclePlate;
+    }
+
+    public void setVehiclePlate(String vehiclePlate) {
+        this.vehiclePlate = vehiclePlate;
+    }
+
+    public String getViolationType() {
+        return violationType;
+    }
+
+    public void setViolationType(String violationType) {
+        this.violationType = violationType;
+    }
+
+    public double getFineAmount() {
+        return fineAmount;
+    }
+
+    public void setFineAmount(double fineAmount) {
+        this.fineAmount = fineAmount;
+    }
+
+    public String getPaymentStatus() {
+        return paymentStatus;
+    }
+
+    public void setPaymentStatus(String paymentStatus) {
+        this.paymentStatus = paymentStatus;
+    }
+}
